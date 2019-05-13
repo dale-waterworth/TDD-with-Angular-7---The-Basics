@@ -1,0 +1,10 @@
+<div *ngIf="employees && employees.length > 0; else noEmployees;">
+
+  <div *ngFor="let employee of employees">
+    <app-employee-list-item [employee]="employee"></app-employee-list-item>
+  </div>
+
+</div>
+<ng-template #noEmployees>
+ <p> {{noEmployeesFound}}</p>
+</ng-template>

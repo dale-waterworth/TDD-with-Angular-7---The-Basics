@@ -1,0 +1,18 @@
+<h1>{{headerText}}</h1>
+
+<div *ngIf="employeeSvc.employees; else noResults">
+
+  <app-employee-list [employees]="employeeSvc.employees"></app-employee-list>
+  
+</div>
+<ng-template #noResults>
+    
+    <div *ngIf="errorMsg; loading">
+        {{errorMsg}}
+    </div>
+    
+    <ng-template #loading>
+        Getting data
+    </ng-template>
+
+</ng-template>

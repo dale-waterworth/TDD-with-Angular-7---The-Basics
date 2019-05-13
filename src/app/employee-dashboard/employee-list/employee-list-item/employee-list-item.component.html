@@ -1,0 +1,34 @@
+<table border="1px">
+  <tr>
+    <td>
+      {{employee.name}}
+    </td>
+    <td>
+      {{employee.role}}
+    </td>
+    <td>
+      {{employee.department}}
+    </td>
+    <td>
+      {{employee.totalHours}}
+    </td>
+    <td>
+      <table border="1px">
+        <tr *ngFor="let jt of employee.times">
+          <td>
+            {{jt.id}}
+          </td>
+          <td>
+            {{jt.jobName}}
+          </td>
+          <td>
+            {{jt.startTime | date:'dd/MM/yyyy H:mm'}}
+          </td>
+          <td>
+            {{jt.endTime | date:'dd/MM/yyyy H:mm'}}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

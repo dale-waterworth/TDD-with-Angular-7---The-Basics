@@ -1,0 +1,46 @@
+[{
+  "name": "Dale",
+  "department": "Development",
+  "role": "Developer",
+  "times": [{
+    "id": 1,
+    "jobName": "Create Page",
+    "startTime": "Fri May 01 2019 09:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 01 2019 17:00:00 GMT+0530 (India Standard Time)"
+  }, {
+    "id": 2,
+    "jobName": "Create Form",
+    "startTime": "Fri May 02 2019 09:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 02 2019 17:00:00 GMT+0530 (India Standard Time)"
+  }, {
+    "id": 3,
+    "jobName": "Submit Form",
+    "startTime": "Fri May 03 2019 09:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 03 2019 17:00:00 GMT+0530 (India Standard Time)"
+  }]
+}, {
+  "name": "Laxman",
+  "department": "Development",
+  "role": "Quality Assurance",
+  "times": [{
+    "id": 4,
+    "jobName": "Test Page",
+    "startTime": "Fri May 04 2019 09:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 04 2019 14:00:00 GMT+0530 (India Standard Time)"
+  }, {
+    "id": 5,
+    "jobName": "Test Form",
+    "startTime": "Fri May 04 2019 14:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 04 2019 17:00:00 GMT+0530 (India Standard Time)"
+  }, {
+    "id": 6,
+    "jobName": "Sign off",
+    "startTime": "Fri May 05 2019 13:00:00 GMT+0530 (India Standard Time)",
+    "endTime": "Fri May 05 2019 15:00:00 GMT+0530 (India Standard Time)"
+  }]
+}, {
+  "name": "Donna",
+  "department": "Management",
+  "role": "Prodcut Owner",
+  "times": []
+}]
